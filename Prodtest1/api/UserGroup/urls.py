@@ -27,6 +27,7 @@ urlpatterns = [
     path('', schema_view),
     path('test/', test),
     path('docker_test/', docker_test),
+    path('cicd_test/', cicd_test),
     path('admin/', admin.site.urls),
     path('api/groups/', GroupInfoView.as_view()),
     path('api/groups/<group_name>/', GroupMemberView.as_view()),

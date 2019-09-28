@@ -17,6 +17,9 @@ def url_test(request):
 def docker_test(request):
     return HttpResponse("Docker testing")
 
+def cicd_test(request):
+    return HttpResponse("CICD testing")
+
 # Create your views here.
 """
 The Class GroupInfoView will provide the get, post, delete API for the GroupInfo table. 
