@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path,include
-from UserGroup.views import GroupInfoView,GroupMemberView,test, url_test, docker_test
+from UserGroup.views import GroupInfoView,GroupMemberView,test, url_test, docker_test, cicd_test
 
 from rest_framework_swagger.views import get_swagger_view
 
