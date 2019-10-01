@@ -25,6 +25,12 @@ services:
         # ports:
         # - "8002:8000"
         volumes:
+        - type: bind
+         source: $HOST/location
+         target: /container/location
+       - type: volume
+         source: mydata
+         target: /docker_api/UserGroup
         - api_data:/docker_api
 
 
